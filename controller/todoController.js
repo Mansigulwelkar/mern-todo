@@ -19,7 +19,7 @@ exports.getTodos = async (req, res) => {
         // const result = await TODO.find()   //get all records
         // const result = await TODO.create()   //add to db
         // const result = await TODO.findByIdAndUpdate()   //update
-        // const result = await TODO.findBy IdandDelete() ///delete
+        // const result = await TODO.findBydandDelete() ///delete
         res.json({
             Message: "get todos success",
             result
